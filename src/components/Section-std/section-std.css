@@ -1,0 +1,35 @@
+.container-btn {
+    display: flex;
+    gap: 20px;
+}
+
+.container-text-std h1 span {
+    font-weight: 700;
+    font-variant: normal;
+}
+
+@media screen and (max-width: 500px) {
+    .container-section-std {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 50vh;
+        padding-top: 25em;
+        padding-left: 3em;
+    }
+
+    .container-btn {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .container-text-std {
+        font-size: 10px;
+    }
+
+    .container-text-std h1 {
+        line-height: 30px;
+    }
+}

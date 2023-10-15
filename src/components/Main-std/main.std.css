@@ -1,0 +1,53 @@
+.container-main {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.container-text-main-std {
+    display: flex;
+    align-items: center;
+}
+
+.container-text-main-std h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 2em;
+    padding: 1em 0em;
+}
+
+.container-text-main-std h3 span {
+    font-weight: bold;
+}
+
+.container-text-main-std p {
+    max-width: 300px;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container-p-std {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.line-style {
+    width: 100px;
+    background-color: #4c9e96;
+    padding: 1px;
+}
+
+.container-img-group-std img {
+    max-width: 500px;
+    width: 100%;
+}
+
+@media screen and (max-width: 890px) {
+    .container-main {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        width: 100%;
+    }
+}
