@@ -32,9 +32,9 @@ export default function Header() {
                             <li>
                                 <a href="">clientes</a>
                             </li>
-                            <li>
+                            {/* <li>
                                 <a href="">portfólio</a>
-                            </li>
+                            </li> */}
                             <li>
                                 <a href="">contato</a>
                             </li>
