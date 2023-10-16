@@ -5,7 +5,7 @@ import BtnPrimary from "../Btn-primary/btn-primary";
 export default function SectionStd() {
     return (
         <div>
-            <div className='container-text-std'>
+            <div className='container-text-std' id="home">
                 <h1>
                     somos o grupo <br />
                     <span>Stand Show</span>

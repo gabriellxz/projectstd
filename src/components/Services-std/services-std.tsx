@@ -6,7 +6,7 @@ import ICON_3 from '../../assets/Group.png'
 export default function ServicesStd() {
     return (
         <>
-            <div className="section-services-std">
+            <div className="section-services-std" id='serviços'>
                 <div className='container-boxs'>
                     <div className='box-icon'>
                         <div className='container-box-icon'>

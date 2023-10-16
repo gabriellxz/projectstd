@@ -5,7 +5,7 @@ import GROUP from '../../assets/Group-754-min.png'
 export default function MainStd() {
     return (
         <div className='container-main'>
-            <div className='container-img-group-std'>
+            <div className='container-img-group-std' id="sobre">
                 <img src={GROUP} alt="group" />
             </div>
             <div className='container-text-main-std'>

@@ -47,7 +47,7 @@ export default function SectionClients() {
 
     return (
         <>
-            <div>
+            <div id='clientes'>
                 <h2>
                     Nossos <span>Clientes</span>
                     {/* <div className='line-style'></div> */}
