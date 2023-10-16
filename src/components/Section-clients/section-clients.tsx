@@ -33,12 +33,16 @@ export default function SectionClients() {
         eletrobras
     ]
 
-    const interval =  3000
+    const interval = 3000
 
     useEffect(() => {
         const timer = setInterval(() => {
             setImage((image) => (image + 1) % images.length)
         }, interval)
+
+        return () => {
+            clearInterval(timer);
+        };
     }, [image, images, interval])
 
     return (
