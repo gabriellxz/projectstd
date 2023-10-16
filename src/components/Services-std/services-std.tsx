@@ -1,3 +1,4 @@
+import './services-std.css'
 import ICON_1 from '../../assets/Path-571.png'
 import ICON_2 from '../../assets/Group-745.png'
 import ICON_3 from '../../assets/Group.png'
