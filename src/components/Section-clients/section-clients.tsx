@@ -1,4 +1,6 @@
 import './section-clients.css'
+import { useEffect, useState } from 'react'
+
 /*client*/
 import threeM from '../../assets/clients/3m.png'
 import abraman from '../../assets/clients/abraman.png'
@@ -12,7 +14,16 @@ import bradesco from '../../assets/clients/bradesco.png'
 import caixa from '../../assets/clients/caixa.png'
 import coelce from '../../assets/clients/coelce.png'
 import eletrobras from '../../assets/clients/eletrobras.png'
-import { useEffect, useState } from 'react'
+import esmaltec from '../../assets/clients/esmaltec.png'
+import formulanatural from '../../assets/clients/formulanatural.png'
+import gas from '../../assets/clients/gas.png'
+import hapvida from '../../assets/clients/hapvida.png'
+import iguatemi from '../../assets/clients/iguatemi.png'
+import mrv from '../../assets/clients/mrv.png'
+import nifor from '../../assets/clients/nifor.png'
+import pado from '../../assets/clients/pado.png'
+import petrobras from '../../assets/clients/stam.png'
+import unimed from '../../assets/clients/unimed.png'
 
 export default function SectionClients() {
 
@@ -30,7 +41,17 @@ export default function SectionClients() {
         bradesco,
         caixa,
         coelce,
-        eletrobras
+        eletrobras,
+        esmaltec,
+        formulanatural,
+        gas,
+        hapvida,
+        iguatemi,
+        mrv,
+        nifor,
+        pado,
+        petrobras,
+        unimed
     ]
 
     const interval = 3000
@@ -89,7 +110,34 @@ export default function SectionClients() {
                         <img src={coelce} alt="" />
                     </div>
                     <div>
-                        <img src={eletrobras} alt="" />
+                        <img src={esmaltec} alt="" />
+                    </div>
+                    <div>
+                        <img src={formulanatural} alt="" />
+                    </div>
+                    <div>
+                        <img src={gas} alt="" />
+                    </div>
+                    <div>
+                        <img src={hapvida} alt="" />
+                    </div>
+                    <div>
+                        <img src={iguatemi} alt="" />
+                    </div>
+                    <div>
+                        <img src={mrv} alt="" />
+                    </div>
+                    <div>
+                        <img src={nifor} alt="" />
+                    </div>
+                    <div>
+                        <img src={pado} alt="" />
+                    </div>
+                    <div>
+                        <img src={petrobras} alt="" />
+                    </div>
+                    <div>
+                        <img src={unimed} alt="" />
                     </div>
                 </div>
                 <div className="box-clients-mobile">

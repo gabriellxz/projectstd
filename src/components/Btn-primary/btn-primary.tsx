@@ -1,9 +1,13 @@
 import "./btn-primary.css"
 
-export default function BtnPrimary() {
+interface PropsText {
+    textbtn: string;
+}
+
+export default function BtnPrimary(props:PropsText) {
     return(
         <button className="btn-primary">
-            Saiba mais
+            {props.textbtn}
         </button>
     )
 }
