@@ -22,7 +22,7 @@ export default function MainStd() {
                             Desde 1998, criamos e executamos projetos e montagens de estandes com tecnologia, criatividade e profissionalismo, aliados à pontualidade, qualidade e segurança à serviço de nossos clientes.
                         </p>
                     </div>
-                    <BtnPrimary />
+                    <BtnPrimary textbtn='SAIBA MAIS'/>
                 </div>
             </div>
         </div>

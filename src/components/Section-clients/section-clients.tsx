@@ -1,5 +1,8 @@
 import './section-clients.css'
 import { useEffect, useState } from 'react'
+import Slider from 'react-slick'
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 
 /*client*/
 import threeM from '../../assets/clients/3m.png'
@@ -28,6 +31,16 @@ import unimed from '../../assets/clients/unimed.png'
 export default function SectionClients() {
 
     const [image, setImage] = useState(0)
+
+    const settings = {
+        dots: true,
+        infinite: true,
+        speed: 2000,
+        slidesToShow: 5,
+        slidesToScroll: 2,
+        autoplay: true,
+        autoplaySpeed: 3000,
+    };
 
     const images = [
         threeM,
@@ -74,8 +87,8 @@ export default function SectionClients() {
                     {/* <div className='line-style'></div> */}
                 </h2>
             </div>
-            <div>
-                <div className='boxs-clients'>
+            <div className='carrousel'>
+                <Slider className='boxs-clients' {...settings}>
                     <div>
                         <img src={threeM} alt="" />
                     </div>
@@ -139,10 +152,14 @@ export default function SectionClients() {
                     <div>
                         <img src={unimed} alt="" />
                     </div>
-                </div>
-                <div className="box-clients-mobile">
-                    <img src={images[image]} alt="" />
-                </div>
+                    <div>
+                        <img src={eletrobras} alt="" />
+                    </div>
+                </Slider>
+            </div>
+            {/* Mobile */}
+            <div className="box-clients-mobile">
+                <img src={images[image]} alt="" />
             </div>
         </>
     )

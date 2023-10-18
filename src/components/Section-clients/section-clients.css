@@ -17,9 +17,7 @@
 }
 
 .boxs-clients {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    place-items: center;
+    display: flex;
 }
 
 .boxs-clients img {
@@ -34,10 +32,19 @@
 }
 
 @media screen and (max-width: 950px) {
-    .boxs-clients {
+    .carrousel {
+        display: none;
+    }
+
+    /* .boxs-clients {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         place-items: center;
+    } */
+
+    .box-clients-mobile {
+        display: flex;
+        justify-content: center;
     }
 }
 
