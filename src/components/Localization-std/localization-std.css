@@ -1,0 +1,36 @@
+.location-std {
+    font-size: 13px;
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+.location-std h4 {
+    font-size: 20px;
+    font-variant: small-caps;
+}
+
+.location-std img {
+    width: 20px;
+}
+
+.location-std ul {
+    padding: 1em 0em;
+}
+
+.location-std li {
+    padding: 10px 0px;
+    max-width: 205px;
+}
+
+.location-std ul li {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.p-location-std {
+    display: flex;
+    gap: 5px;
+    padding: 10px 0px;
+}
