@@ -46,19 +46,19 @@ export default function Header() {
                             open &&
                             <ul>
                                 <li>
-                                    <a href="#home">home</a>
+                                    <a href="#home" onClick={()  => setOpen(!open)}>home</a>
                                 </li>
                                 <li>
-                                    <a href="#sobre">sobre nós</a>
+                                    <a href="#sobre" onClick={()  => setOpen(!open)}>sobre nós</a>
                                 </li>
                                 <li>
-                                    <a href="#serviços">serviços</a>
+                                    <a href="#serviços" onClick={()  => setOpen(!open)}>serviços</a>
                                 </li>
                                 <li>
-                                    <a href="#clientes">clientes</a>
+                                    <a href="#clientes" onClick={()  => setOpen(!open)}>clientes</a>
                                 </li>
                                 <li>
-                                    <a href="#contato">contato</a>
+                                    <a href="#contato" onClick={()  => setOpen(!open)}>contato</a>
                                 </li>
                             </ul>
                         }
