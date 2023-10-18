@@ -46,22 +46,19 @@ export default function Header() {
                             open &&
                             <ul>
                                 <li>
-                                    <a href="home">home</a>
+                                    <a href="#home">home</a>
                                 </li>
                                 <li>
-                                    <a href="sobre">sobre nós</a>
+                                    <a href="#sobre">sobre nós</a>
                                 </li>
                                 <li>
-                                    <a href="">serviços</a>
+                                    <a href="#serviços">serviços</a>
                                 </li>
                                 <li>
-                                    <a href="">clientes</a>
+                                    <a href="#clientes">clientes</a>
                                 </li>
                                 <li>
-                                    <a href="">portfólio</a>
-                                </li>
-                                <li>
-                                    <a href="">contato</a>
+                                    <a href="#contato">contato</a>
                                 </li>
                             </ul>
                         }
