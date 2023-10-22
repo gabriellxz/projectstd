@@ -34,3 +34,11 @@
     gap: 5px;
     padding: 10px 0px;
 }
+
+@media screen and (max-width: 530px) {
+    .location-std {
+        font-size: 13px;
+        display: flex;
+        flex-direction: column;
+    }
+} 
