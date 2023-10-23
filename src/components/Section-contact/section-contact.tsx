@@ -7,8 +7,13 @@ export default function SectionContact() {
         <>
             <div>
                 <div className='container-title-contact'>
+<<<<<<< HEAD
                     <div>
                         <h2 id='contato'>Contato</h2>
+=======
+                    <div id="contato">
+                        <h2>Contato</h2>
+>>>>>>> origin/main
                         <div className="container-line-style">
                             <div className="line-style-two"></div>
                             <div className="line-style-three"></div>
