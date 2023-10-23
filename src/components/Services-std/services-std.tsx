@@ -6,46 +6,7 @@ import ICON_3 from '../../assets/Group.png'
 export default function ServicesStd() {
     return (
         <>
-            <div className="section-services-std" id='serviços'>
-                <div className='container-boxs'>
-                    <div className='box-icon'>
-                        <div className='container-box-icon'>
-                            <img src={ICON_1} alt="" />
-                        </div>
-                        <div>
-                            <p>
-                                Soluções
-                                Inteligentes
-                            </p>
-                        </div>
-                    </div>
-                    <div className='box-icon line-style-box'>
-                        <div className='container-box-icon'>
-                            <img src={ICON_2} alt="" />
-                        </div>
-                        <div>
-                            <p>
-                                Estandes
-                                ecologicamente
-                                corretos
-                            </p>
-                        </div>
-                    </div>
-                    <div className='box-icon line-style-box-2'>
-                        <div className='container-box-icon'>
-                            <img src={ICON_3} alt="" />
-                        </div>
-                        <div>
-                            <p>
-                                Tecnologia
-                                criatividade e
-                                segurança
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div className='services'>
+            <div className='services' id='serviços'>
                 <div>
                     <h2>
                         Enventos
@@ -85,6 +46,45 @@ export default function ServicesStd() {
                             <p>
                                 Estande Modular
                                 <div className='line-style' style={{ background: "#fff" }}></div>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="section-services-std">
+                <div className='container-boxs'>
+                    <div className='box-icon'>
+                        <div className='container-box-icon'>
+                            <img src={ICON_1} alt="" />
+                        </div>
+                        <div>
+                            <p>
+                                Soluções
+                                Inteligentes
+                            </p>
+                        </div>
+                    </div>
+                    <div className='box-icon line-style-box'>
+                        <div className='container-box-icon'>
+                            <img src={ICON_2} alt="" />
+                        </div>
+                        <div>
+                            <p>
+                                Estandes
+                                ecologicamente
+                                corretos
+                            </p>
+                        </div>
+                    </div>
+                    <div className='box-icon line-style-box-2'>
+                        <div className='container-box-icon'>
+                            <img src={ICON_3} alt="" />
+                        </div>
+                        <div>
+                            <p>
+                                Tecnologia
+                                criatividade e
+                                segurança
                             </p>
                         </div>
                     </div>
