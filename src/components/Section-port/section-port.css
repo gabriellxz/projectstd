@@ -19,12 +19,11 @@
 .grid-container img {
     max-width: 400px;
     width: 100%;
-    transition: all 0.5s;
 }
 
-.grid-container img:hover {
+/* .grid-container img:hover {
     transform: scale(1.1);
-}
+} */
 
 @media screen and (max-width: 800px) {
     .grid-container {

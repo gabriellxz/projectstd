@@ -32,9 +32,9 @@ export default function Header() {
                             <li>
                                 <a href="#clientes">clientes</a>
                             </li>
-                            {/* <li>
-                                <a href="">portfólio</a>
-                            </li> */}
+                            <li>
+                                <a href="#portfolio">portfólio</a>
+                            </li>
                             <li>
                                 <a href="#contato">contato</a>
                             </li>
@@ -56,6 +56,9 @@ export default function Header() {
                                 </li>
                                 <li>
                                     <a href="#clientes" onClick={() => setOpen(!open)}>clientes</a>
+                                </li>
+                                <li>
+                                    <a href="#portfolio" onClick={() => setOpen(!open)}>portfólio</a>
                                 </li>
                                 <li>
                                     <a href="#contato" onClick={() => setOpen(!open)}>contato</a>
