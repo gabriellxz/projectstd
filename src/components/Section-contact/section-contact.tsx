@@ -8,7 +8,7 @@ export default function SectionContact() {
             <div>
                 <div className='container-title-contact'>
                     <div>
-                        <h2>Contato</h2>
+                        <h2 id='contato'>Contato</h2>
                         <div className="container-line-style">
                             <div className="line-style-two"></div>
                             <div className="line-style-three"></div>

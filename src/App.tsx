@@ -19,10 +19,12 @@ function App() {
           <SectionStd />
         </div>
       </div>
+      <div className='section-services'>
+        <ServicesStd />
+      </div>
       <div className='main-std'>
         <MainStd />
       </div>
-      <ServicesStd />
       <div className='section-clients'>
         <SectionClients />
       </div>
@@ -30,7 +32,7 @@ function App() {
         <SectionContact />
       </div>
       <div className="footer">
-        <Footer/>
+        <Footer />
       </div>
     </>
   )

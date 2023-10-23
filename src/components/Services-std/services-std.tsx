@@ -48,7 +48,7 @@ export default function ServicesStd() {
             <div className='services'>
                 <div>
                     <h2>
-                        Serviços
+                        Enventos
                     </h2>
                     <div className='container-box-stand'>
                         <div className='box-stand'>

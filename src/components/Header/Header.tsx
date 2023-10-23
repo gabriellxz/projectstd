@@ -24,10 +24,10 @@ export default function Header() {
                                 <a href="#home">home</a>
                             </li>
                             <li>
-                                <a href="#sobre">sobre nós</a>
+                                <a href="#serviços">eventos</a>
                             </li>
                             <li>
-                                <a href="#serviços">serviços</a>
+                                <a href="#sobre">sobre nós</a>
                             </li>
                             <li>
                                 <a href="#clientes">clientes</a>
