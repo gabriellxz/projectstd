@@ -8,9 +8,17 @@ export default function ServicesStd() {
         <>
             <div className='services' id='serviços'>
                 <div>
-                    <h2>
-                        Enventos
-                    </h2>
+                    <div className="container-title">
+                        <div>
+                            <h2>
+                                Enventos
+                                <div className="container-line-style">
+                                    <div className="line-style"></div>
+                                    <div className="line-style-three"></div>
+                                </div>
+                            </h2>
+                        </div>
+                    </div>
                     <div className='container-box-stand'>
                         <div className='box-stand'>
                             <p>

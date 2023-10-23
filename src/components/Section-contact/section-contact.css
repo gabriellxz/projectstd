@@ -2,16 +2,6 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.container-title-contact {
-    display: flex;
-    justify-content: center;
-    padding: 2em 0em;
-}
-
-.container-title-contact h2 {
-    font-weight: 500;
-}
-
 .container-content-contact {
     display: flex;
     width: 100%;

@@ -14,7 +14,7 @@ export default function SectionStd() {
                     Desde 1998 criando e executando projetos e montagens de estandes com tecnologia, criatividade e profissionalismo.
                 </p>
                 <div className="container-btn">
-                    <BtnPrimary textbtn="Saber mais"/>
+                    <BtnPrimary textbtn="Fale Conosco"/>
                     <BtnIverse />
                 </div>
             </div>

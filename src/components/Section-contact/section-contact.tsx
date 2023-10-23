@@ -6,13 +6,15 @@ export default function SectionContact() {
     return (
         <>
             <div id="contato">
-                <div className='container-title-contact'>
+                <div className='container-title'>
                     <div>
-                        <h2>Contato</h2>
-                        <div className="container-line-style">
-                            <div className="line-style-two"></div>
-                            <div className="line-style-three"></div>
-                        </div>
+                        <h2>
+                            Contato
+                            <div className="container-line-style">
+                                <div className="line-style-two"></div>
+                                <div className="line-style-three"></div>
+                            </div>
+                        </h2>
                     </div>
                 </div>
                 <div className='container-content-contact'>

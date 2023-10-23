@@ -6,6 +6,7 @@ import ServicesStd from './components/Services-std/services-std'
 import SectionClients from './components/Section-clients/section-clients'
 import SectionContact from './components/Section-contact/section-contact'
 import Footer from './components/Footer/footer'
+import SectionPort from './components/Section-port/section-port'
 
 
 
@@ -24,6 +25,9 @@ function App() {
       </div>
       <div className='main-std'>
         <MainStd />
+      </div>
+      <div className="section-port">
+        <SectionPort/>
       </div>
       <div className='section-clients'>
         <SectionClients />

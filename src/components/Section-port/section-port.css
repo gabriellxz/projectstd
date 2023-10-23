@@ -1,0 +1,39 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container-title h2 span {
+    font-weight: 600;
+}
+
+.container-grid-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-container {
+   column-count: 3;
+}
+
+.grid-container img {
+    max-width: 400px;
+    width: 100%;
+    transition: all 0.5s;
+}
+
+.grid-container img:hover {
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 800px) {
+    .grid-container {
+        column-count: 2;
+     }
+}
+
+@media screen and (max-width: 600px) {
+    .grid-container {
+        column-count: 1;
+     }
+}

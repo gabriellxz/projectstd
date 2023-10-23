@@ -28,7 +28,7 @@ export default function MainStd() {
                         </div>
                         <div className='container-button-main-std'>
                             <div className='line-style'></div>
-                            <BtnPrimary textbtn='SAIBA MAIS' />
+                            <BtnPrimary textbtn='FALE CONOSCO'/>
                         </div>
                     </div>
                 </div>
