@@ -5,15 +5,10 @@ import LocalizationStd from '../Localization-std/localization-std'
 export default function SectionContact() {
     return (
         <>
-            <div>
+            <div id="contato">
                 <div className='container-title-contact'>
-<<<<<<< HEAD
                     <div>
-                        <h2 id='contato'>Contato</h2>
-=======
-                    <div id="contato">
                         <h2>Contato</h2>
->>>>>>> origin/main
                         <div className="container-line-style">
                             <div className="line-style-two"></div>
                             <div className="line-style-three"></div>
@@ -24,16 +19,16 @@ export default function SectionContact() {
                     <div className="container-form">
                         <form>
                             <div className="container-input">
-                                <input type="text" placeholder='Nome' className='input'/>
+                                <input type="text" placeholder='Nome' className='input' />
                             </div>
                             <div className="container-input">
-                                <input type="text" placeholder='Telefone | Whatsapp' className='input'/>
+                                <input type="text" placeholder='Telefone | Whatsapp' className='input' />
                             </div>
                             <div className="container-input">
-                                <input type="email" placeholder='Email' className='input'/>
+                                <input type="email" placeholder='Email' className='input' />
                             </div>
                             <div className="container-input">
-                                <input type="text" placeholder='Cidade | Estado' className='input'/>
+                                <input type="text" placeholder='Cidade | Estado' className='input' />
                             </div>
                             <div className="container-input">
                                 <textarea name="" id="" cols={30} rows={10} placeholder='Mensagem'></textarea>
