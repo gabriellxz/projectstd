@@ -8,12 +8,10 @@ import SectionContact from './components/Section-contact/section-contact'
 import Footer from './components/Footer/footer'
 import SectionPort from './components/Section-port/section-port'
 
-
-
 function App() {
-
+  
   return (
-    <>
+    <div>
       <div className='div-background'>
         <Header />
         <div className='container-section-std'>
@@ -38,7 +36,7 @@ function App() {
       <div className="footer">
         <Footer />
       </div>
-    </>
+    </div>
   )
 }
 

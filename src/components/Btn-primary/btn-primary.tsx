@@ -1,12 +1,16 @@
+// import useModal from "../../hook/useModal";
 import "./btn-primary.css"
 
-interface PropsText {
+interface PropsBtn {
     textbtn: string;
+    modalFunction: () => void
 }
 
-export default function BtnPrimary(props:PropsText) {
+export default function BtnPrimary(props:PropsBtn) {
+
+
     return(
-        <button className="btn-primary">
+        <button className="btn-primary" onClick={props.modalFunction}>
             {props.textbtn}
         </button>
     )
