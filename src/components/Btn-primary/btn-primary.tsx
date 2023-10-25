@@ -3,7 +3,7 @@ import "./btn-primary.css"
 
 interface PropsBtn {
     textbtn: string;
-    modalFunction: () => void
+    modalFunction?: () => void
 }
 
 export default function BtnPrimary(props:PropsBtn) {
