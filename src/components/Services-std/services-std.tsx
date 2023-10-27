@@ -2,8 +2,12 @@ import './services-std.css'
 import ICON_1 from '../../assets/Path-571.png'
 import ICON_2 from '../../assets/Group-745.png'
 import ICON_3 from '../../assets/Group.png'
+import useModal from '../../hook/useModal'
+import ModalEvent from '../Modal-event/modal-event'
 
 export default function ServicesStd() {
+    const {open, setOpen} = useModal()
+    
     return (
         <>
             <div className='services' id='serviços'>
@@ -20,37 +24,38 @@ export default function ServicesStd() {
                         </div>
                     </div>
                     <div className='container-box-stand'>
-                        <div className='box-stand'>
+                       {open && <ModalEvent modalFunction={() => setOpen(!open)}/>}
+                        <div className='box-stand' onClick={() => setOpen(!open)}>
                             <p>
                                 Estande Ecológico
                                 <div className='line-style' style={{ background: "#fff" }}></div>
                             </p>
                         </div>
-                        <div className='box-stand'>
+                        <div className='box-stand' onClick={() => setOpen(!open)}>
                             <p>
                                 Estande Personalizado
                                 <div className='line-style' style={{ background: "#fff" }}></div>
                             </p>
                         </div>
-                        <div className='box-stand'>
+                        <div className='box-stand' onClick={() => setOpen(!open)}>
                             <p>
                                 Estande Misto
                                 <div className='line-style' style={{ background: "#fff" }}></div>
                             </p>
                         </div>
-                        <div className='box-stand'>
+                        <div className='box-stand' onClick={() => setOpen(!open)}>
                             <p>
                                 Estande para Shopping
                                 <div className='line-style' style={{ background: "#fff" }}></div>
                             </p>
                         </div>
-                        <div className='box-stand'>
+                        <div className='box-stand' onClick={() => setOpen(!open)}>
                             <p>
                                 Estande Básico
                                 <div className='line-style' style={{ background: "#fff" }}></div>
                             </p>
                         </div>
-                        <div className='box-stand'>
+                        <div className='box-stand' onClick={() => setOpen(!open)}>
                             <p>
                                 Estande Modular
                                 <div className='line-style' style={{ background: "#fff" }}></div>
